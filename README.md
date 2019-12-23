@@ -1,5 +1,7 @@
 # Wator
 
+Wator is a biological environment simulator that mimics the lifecycle of living beings — fishes and sharks — inside the homonymous planet "Wator". Time passes in discrete jumps called "chronons" and the planet's surface is split in squares. Each square can either be filled by water, a fish or a shark. During each chronon, fishes swim and move to an adjacent square and sharks do the same while looking for food (i.e. fishes). Sharks survive (and reproduce) only if they manage to eat something every fixed amount of chronons, otherwise they die. On the other hand, fishes can't starve because it is assumed that they can always find some plancton to eat, but they run the risk of being eaten by sharks. Similarly to the sharks, they reproduce every fixed amount of chronons (further details about this project can be found at the [Wa-Tor](https://en.wikipedia.org/wiki/Wa-Tor) Wikipedia page).
+
 This file contains the instructions for building and executing the program.
 Equivalent instructions in Italian can be found in the [README_wator_italian.txt](README_wator_italian.txt)
 
