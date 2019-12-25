@@ -174,10 +174,6 @@ int main(int argc, char *argv[])
 	
 	if(pw == NULL) ERRORMESSAGE("Planet file was not in a correct format\n");
 	
-	/**************************************************************************************************/
-	//pw->chronon=300;
-	/**************************************************************************************************/
-	
 	atexit(cleanList);
 	atexit(cleanWator); 				//ATEXIT
 	
