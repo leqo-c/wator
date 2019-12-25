@@ -7,9 +7,11 @@ Equivalent instructions in Italian can be found in the [README_wator_italian.txt
 
 ## Preparation of the executables
 	
-cd into the folder containing the Makefile and execute either "make" or
-"make setup". The output of the command will be the creation of a library
-and of the two executables "wator" and "visualizer".
+Open a terminal, `cd` into the `WATOR/src/` folder and execute either `make` or
+`make setup`. The output of the command will be the creation of a library
+and of the two executables *wator* and *visualizer*.
+
+**Note**: you can revert the folder to the initial state at any time by executing `make cleanall`, for example when you are done with the execution and you want to remove the executables and all the temporary files.
 
 ## Code execution
 
