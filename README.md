@@ -23,7 +23,7 @@ where "file" is the file the planet will be loaded from (mandatory), while
 the remaining optional parameters are used to modify the initial
 configuration of the simulation. Respectively, -n represents the number of
 workers, -v defines the rate at which snapshots of the planet's state are
-taken and -f is the output file in which to save them. If not spedicied,
+taken and -f is the output file in which to save them. If not specified,
 -f is just "stdout".
   
 ## Termination
